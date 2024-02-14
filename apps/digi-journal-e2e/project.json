@@ -1,0 +1,9 @@
+{
+  "name": "digi-journal-e2e",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "projectType": "application",
+  "sourceRoot": "apps/digi-journal-e2e/src",
+  "targets": {},
+  "tags": [],
+  "implicitDependencies": ["digi-journal"]
+}
