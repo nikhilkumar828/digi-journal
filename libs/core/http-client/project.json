@@ -1,0 +1,9 @@
+{
+  "name": "http-client",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/core/http-client/src",
+  "prefix": "digi-journal",
+  "tags": [],
+  "projectType": "library",
+  "targets": {}
+}

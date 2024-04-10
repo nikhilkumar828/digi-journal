@@ -1,0 +1,9 @@
+{
+  "name": "header",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/shared-ui/header/src",
+  "prefix": "digi-journal",
+  "tags": ["scope:shared", "type:feature"],
+  "projectType": "library",
+  "targets": {}
+}

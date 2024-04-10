@@ -14,7 +14,20 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@digi-journal/header": ["libs/shared-ui/header/src/index.ts"],
+      "@digi-journal/header/*": ["libs/shared-ui/header/src/*"],
+      "@digi-journal/http-client": ["libs/core/http-client/src/index.ts"],
+      "@digi-journal/http-client/*": ["libs/core/http-client/src/*"],
+      "@digi-journal/services": ["libs/services/src/index.ts"],
+      "@digi-journal/services/*": ["libs/services/src/*"],
+      "@digi-journal/shared-ui/dashboard": [
+        "libs/shared-ui/dashboard/src/index.ts"
+      ],
+      "@digi-journal/shared-ui/dashboard/*": [
+        "libs/shared-ui/dashboard/src/*"
+      ]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
